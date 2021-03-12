@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static Core.Utilities.Interceptors.Class1;
 using Castle.DynamicProxy;
 using Microsoft.Extensions.DependencyInjection;
 using Core.Extensions;
 using Business.Constants;
+using Core.Utilities.Interceptors;
 
 namespace Business.BusinessAspects.Autofac
 {
